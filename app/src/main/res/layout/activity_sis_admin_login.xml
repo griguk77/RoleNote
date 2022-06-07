@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.SisAdminLoginActivity">
+
+    <TextView
+        android:id="@+id/textViewLoginSisAdminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти как системный адмнистратор"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmailSisAdminLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите логин"
+        app:layout_constraintTop_toBottomOf="@id/textViewLoginSisAdminTitle"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPasswordSisAdminLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmailSisAdminLogin"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLoginSisAdmin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Войти"
+        app:layout_constraintTop_toBottomOf="@id/editTextPasswordSisAdminLogin"
+        android:textColor="@android:color/white"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRegister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Зарегистрироваться"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonLoginSisAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewLoginAdmin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти как  администратор"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_blue_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewRegister2" />
+
+    <TextView
+        android:id="@+id/textViewLoginUser3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти как пользователь"
+        android:layout_marginTop="10dp"
+        android:textColor="#58595B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewLoginAdmin2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

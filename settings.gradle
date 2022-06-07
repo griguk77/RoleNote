@@ -1,0 +1,2 @@
+rootProject.name = "RoleNote"
+include ':app'

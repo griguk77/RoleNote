@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "402066351503",
+    "project_id": "rolen-d9551",
+    "storage_bucket": "rolen-d9551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402066351503:android:7ec24c92075723f0a017fa",
+        "android_client_info": {
+          "package_name": "com.rosewhat.rolenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402066351503-2eachgba2t9vmca83dncno79lvi3oppi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rosewhat.rolenote",
+            "certificate_hash": "6e9408278da7373aa8465511a530a2b355cc9679"
+          }
+        },
+        {
+          "client_id": "402066351503-lv9d8s4kfcfoj8rf8b4pbrsmq4nlkv33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaPKL2W3Q3Rx1_5xYyftgEAZEMXdonhbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402066351503-lv9d8s4kfcfoj8rf8b4pbrsmq4nlkv33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rosewhat.rolenote">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RoleNote">
+        <activity android:name=".presentation.main.sisadmin.AddSisAdminActivity"></activity>
+        <activity android:name=".presentation.main.sisadmin.SisAdminActivity" />
+        <activity android:name=".presentation.main.admin.AddAdminActivity" />
+        <activity android:name=".presentation.main.admin.AdminActivity" />
+        <activity android:name=".presentation.main.user.UserActivity" />
+        <activity android:name=".presentation.SisAdminLoginActivity" />
+        <activity android:name=".presentation.AdminLoginActivity" />
+        <activity android:name=".presentation.UserLoginActivity" />
+        <activity android:name=".presentation.RegisterActivity" />
+        <activity android:name=".presentation.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

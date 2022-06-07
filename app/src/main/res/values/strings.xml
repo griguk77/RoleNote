@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RoleNote</string>
+
+    <string-array name="spinnerMatch">
+        <item>Цска - Спартак</item>
+        <item>Зенит - Динамо</item>
+        <item>Химки - Урал</item>
+        <item>Сочи - Краснодар</item>
+        <item>Рубин - Ростов</item>
+    </string-array>
+
+    <string-array name="spinnerTribuna">
+        <item>Трибуна А</item>
+        <item>Трибуна B</item>
+        <item>Трибуна C</item>
+        <item>Трибуна D</item>
+    </string-array>
+</resources>
